@@ -20,8 +20,8 @@ const HomeScreen = () => {
     const myDoc = doc(db, "MyCollection", "MyDocument");
 
     const docData = {
-      name: "Roneil",
-      bio: "Youtube'",
+      name: "djavu",
+      bio: "linkedin",
     };
     setDoc(myDoc, docData)
       .then(() => {
